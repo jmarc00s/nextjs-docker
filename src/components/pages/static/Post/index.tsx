@@ -1,5 +1,5 @@
 import React from 'react';
-import { Post as PostType } from '../../types';
+import { Post as PostType } from '../../../../types';
 
 type PostProps = {
   post: PostType;

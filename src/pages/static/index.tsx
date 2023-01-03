@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 import React from 'react';
-import { Post } from './components/Post';
-import { Post as PostType } from './types';
+import { Post } from '../../components/pages/static/Post';
+import { Post as PostType } from '../../types';
 
 export function getStaticProps() {
   const posts: PostType[] = [];
